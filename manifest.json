@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "quiklrn auto Survey Extension",
+  "version": "1.0",
+  "description": "Automatically fills and submits surveys on quiklrn.com",
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "host_permissions": ["https://home.quiklrn.com/*"],
+  "host_permissions": ["https://quiklrn.com/*"],
+  "action": {
+    "default_title": "Auto Survey",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
