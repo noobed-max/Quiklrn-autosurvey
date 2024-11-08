@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "quiklrn auto Survey Extension",
+  "name": "Quicklrn-AutoSurvey",
   "version": "1.0",
   "description": "Automatically fills and submits surveys on quiklrn.com",
   "permissions": ["scripting", "tabs", "activeTab"],
